@@ -89,6 +89,7 @@ namespace AssignmentAPI.Controllers
         }
 
         [HttpDelete]
+        [Route("DeletEmployee")]
         public IActionResult DeletEmployee(int id)
         {
             Data data = new Data();
